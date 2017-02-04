@@ -1,0 +1,140 @@
+
+header {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size:14px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  display: flex;
+}
+header .logo span {
+  color: "MediumAquamarine";
+
+}
+header nav {
+  display: inline-flex;
+}
+
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+html body {
+  height: 100%;
+}
+div {
+  display: block;
+}
+p {
+  display: block;
+}
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+.news h3 {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.main_content {
+  display: flex;
+  width: 1250px;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.narrative {
+  margin-top: 15px;
+}
+.large .column {
+  width: 630px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.article .text-content {
+  height: 250px;
+}
+.medium .column {
+  width: 300px;
+  margin-right: 15px;
+}
+.small .column {
+  width: 240px;
+}
+.news h3 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.news .bite {
+  display: block;
+  padding: 12px 20px;
+  background-color: "WhiteSmoke" ;
+  color: "DimGray";
+  font-size: 12px;
+  border: 1px solid black;
+}
+.info .topic {
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  color: DimGray;
+  background-color: whitesmoke;
+}
+img.cookie {
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  width: 100%;
+}
+footer .info {
+  justify-content: center;
+  align-items: center;
+}
